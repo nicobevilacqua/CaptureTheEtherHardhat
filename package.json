@@ -6,7 +6,26 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "test": "npx hardhat test"
+    "test": "npx hardhat test",
+    "deploy-a-contract": "npx hardhat test ./test/01-DeployAContract.test.ts",
+    "call-me": "npx hardhat test ./test/02-CallMe.test.ts",
+    "choose-a-nickname": "npx hardhat test ./test/03-ChooseANickname.test.ts",
+    "guess-the-number": "npx hardhat test ./test/04-GuessTheNumber.test.ts",
+    "guess-the-secret-number": "npx hardhat test ./test/05-GuessTheSecretNumber.test.ts",
+    "guess-the-random-number": "npx hardhat test ./test/06-GuessTheRandomNumber.test.ts",
+    "guess-the-new-number": "npx hardhat test ./test/07-GuessTheNewNumber.test.ts",
+    "predict-the-future": "npx hardhat test ./test/08-PredictTheFuture.test.ts",
+    "predict-the-block-hash": "npx hardhat test ./test/09-PredictTheBlockHash.test.ts",
+    "token-sale": "npx hardhat test ./test/10-TokenSale.test.ts",
+    "token-whale": "npx hardhat test ./test/11-TokenWhale.test.ts",
+    "retirement-fund": "npx hardhat test ./test/12-RetirementFund.test.ts",
+    "mapping": "npx hardhat test ./test/13-Mapping.test.ts",
+    "donation": "npx hardhat test ./test/14-Donation.test.ts",
+    "fifty-years": "npx hardhat test ./test/15-FiftyYears.test.ts",
+    "fuzzy-identity": "npx hardhat test ./test/16-fuzzy-identity.test.ts",
+    "public-key": "npx hardhat test ./test/17-PublicKey.test.ts",
+    "assume-ownership": "npx hardhat test ./test/18-AssumeOwnership.test.ts",
+    "token-bank": "npx hardhat test ./test/19-TokenBank.test.ts"
   },
   "dependencies": {
     "@ethersproject/abi": "^5.7.0",
